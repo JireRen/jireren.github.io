@@ -7,6 +7,7 @@ DOMAIN="jingyao.ren"
 
 cd "$SOURCE_DIR"
 
+bundle exec jekyll clean
 bundle exec jekyll build
 
 # Add GitHub Pages static-hosting files directly into generated output
