@@ -162,7 +162,7 @@
   <div class="author__content">
     <h3 class="author__name">Jingyao Ren</h3>
     
-    <p class="author__bio">Robotics Researcher, PhD.</p>
+    <p class="author__bio">Robotics Researcher, Founder</p>
   </div>
 
   <div class="author__urls-wrapper">
@@ -265,182 +265,348 @@
 
 <h2 id="research-interests">Research Interests</h2>
 
-<p>During my Ph.D., I studied the empirical hardness of Multi-Agent Path Finding (<a href="https://mapf.info/">MAPF</a>): why some instances are harder than others, how topology and agent distribution affect difficulty, and how these insights can improve algorithms and benchmarks.</p>
+<!-- During my Ph.D., I studied the empirical hardness of [Multi-Agent Path Finding (MAPF)](https://mapf.info/): why some instances are harder than others, how topology and agent distribution affect difficulty, and how these insights can improve algorithms and benchmarks. -->
+
+<div class="gif-text-row">
+  <div class="gif-box">
+    <img src="/images/demo_2.gif" alt="Multi-agent path finding demo" />
+  </div>
+
+  <div class="text-box">
+    <p>
+      During my Ph.D., I studied the <a href="https://mapf.info/" target="_blank" rel="noopener noreferrer">Multi-Agent Path Finding (MAPF)</a> problem,where multiple robots must plan collision-free paths to their goals. 
+    </p>
+
+    <p>
+      My research focused on <a href="https://www.cs.ubc.ca/labs/algorithms/Projects/Empirical-Hardness-Models/" target="_blank" rel="noopener noreferrer">empirical hardness</a>: why some MAPF instances are much harder than others, how map topology and agent distribution shape difficulty, and how these insights can improve algorithms, benchmarks, and test environments.
+    </p>
+  </div>
+</div>
 
 <h2 id="selected-publications">Selected Publications</h2>
 
-<div class="publication-card">
-  <div class="publication-title">
-    Empirical Hardness in Multi-Agent Pathfinding: Research Challenges and Opportunities
-  </div>
+<div class="publications-container">
 
-  
-    <div class="publication-authors">
-      Jingyao Ren, Eric Ewing, TK Kumar, Sven Koenig, and Nora Ayanian
-    </div>
-  
 
-  <div class="publication-venue">
+  <div class="pub-item pub-entry">
+  <div class="pub-thumbnail">
     
-      <em>International Conference on Autonomous Agents and Multiagent Systems (AAMAS)</em>
-    
-
-    
-      , 
-      2025
+      
+        <img src="/images/pub_thumb/aamas_25.png" alt="Empirical Hardness in Multi-Agent Pathfinding: Research Challenges and Opportunities thumbnail" loading="lazy" decoding="async" />
+      
     
   </div>
 
-  <!-- 
-    <div class="publication-excerpt">
-      A position paper outlining research challenges and opportunities for studying empirical hardness in multi-agent pathfinding.
+  <div class="pub-content">
+    <h3 class="pub-title">
+      
+        Empirical Hardness in Multi-Agent Pathfinding: Research Challenges and Opportunities
+      
+    </h3>
+
+    
+      <p class="pub-authors">Jingyao Ren, Eric Ewing, TK Kumar, Sven Koenig, and Nora Ayanian</p>
+    
+
+    <p class="pub-meta">
+      
+        <i>International Conference on Autonomous Agents and Multiagent Systems (AAMAS)</i>
+      
+      
+        , 
+        2025
+      
+    </p>
+
+    <div class="pub-actions">
+      
+        <button class="pub-button" type="button" onclick="togglePubPanel('2025-empirical-hardness-mapf-challenges-abstract')">
+          Abstract
+        </button>
+      
+
+      
+        <button class="pub-button" type="button" onclick="togglePubPanel('2025-empirical-hardness-mapf-challenges-bibtex')">
+          BibTeX
+        </button>
+      
+
+      
+        <a href="https://idm-lab.org/bib/abstracts/papers/aamas25.pdf" target="_blank" rel="noopener noreferrer" class="pub-button">Paper</a>
+      
+
+      
+        <a href="https://drive.google.com/file/d/1GRs3cmifogVTx0Gf87CQyOn2zb68_LH5/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="pub-button">Slides</a>
+      
+
+      
+
+      
     </div>
-   -->
 
-  <div class="publication-links">
-    
+    <div class="pub-panels">
+      
+        <div id="2025-empirical-hardness-mapf-challenges-abstract" class="pub-panel abstract-content" hidden="">
+          <p>Multi-agent pathfinding (MAPF) is the problem of finding collision-free paths for a team of agents on a map. Although MAPF is NP-hard, the hardness of solving individual instances varies significantly, revealing a gap between theoretical complexity and actual hardness. This paper outlines three key research challenges in MAPF empirical hardness to understand such phenomena. The first challenge, known as algorithm selection, is determining the best-performing algorithms for a given instance. The second challenge is understanding the key instance features that affect MAPF empirical hardness, such as structural properties like phase transition and backbone/backdoor. The third challenge is how to leverage our knowledge of MAPF empirical hardness to effectively generate hard MAPF instances or diverse benchmark datasets. This work establishes a foundation for future empirical hardness research and encourages deeper investigation into these promising and underexplored areas.</p>
+        </div>
+      
 
-    
-
-    
-
-    
-
-    
-
-    
+      
+        <div id="2025-empirical-hardness-mapf-challenges-bibtex" class="pub-panel bibtex-content" hidden="">
+          <pre><code>@article{ren2025empirical,
+title={Empirical Hardness in Multi-Agent Pathfinding: Research Challenges and Opportunities},
+author={Ren, Jingyao and Ewing, Eric and Kumar, TK and Koenig, Sven and Ayanian, Nora},
+journal={Proceedings of the 24th International Conference on Autonomous Agents and Multiagent Systems},
+year={2025}
+}
+</code></pre>
+        </div>
+      
+    </div>
   </div>
 </div>
 
-<div class="publication-card">
-  <div class="publication-title">
-    Map Connectivity and Empirical Hardness of Grid-Based Multi-Agent Pathfinding Problem
-  </div>
-
-  
-    <div class="publication-authors">
-      Jingyao Ren, Eric Ewing, TK Satish Kumar, Sven Koenig, and Nora Ayanian
-    </div>
-  
-
-  <div class="publication-venue">
+  <div class="pub-item pub-entry">
+  <div class="pub-thumbnail">
     
-      <em>International Conference on Automated Planning and Scheduling (ICAPS)</em>
-    
-
-    
-      , 
-      2024
+      
+        <img src="/images/gui_2.gif" alt="Map Connectivity and Empirical Hardness of Grid-Based Multi-Agent Pathfinding Problem thumbnail" loading="lazy" decoding="async" />
+      
     
   </div>
 
-  <!-- 
-    <div class="publication-excerpt">
-      A study of how map connectivity affects the empirical hardness of grid-based multi-agent pathfinding instances.
+  <div class="pub-content">
+    <h3 class="pub-title">
+      
+        Map Connectivity and Empirical Hardness of Grid-Based Multi-Agent Pathfinding Problem
+      
+    </h3>
+
+    
+      <p class="pub-authors">Jingyao Ren, Eric Ewing, TK Satish Kumar, Sven Koenig, and Nora Ayanian</p>
+    
+
+    <p class="pub-meta">
+      
+        <i>International Conference on Automated Planning and Scheduling (ICAPS)</i>
+      
+      
+        , 
+        2024
+      
+    </p>
+
+    <div class="pub-actions">
+      
+        <button class="pub-button" type="button" onclick="togglePubPanel('2024-map-connectivity-empirical-hardness-abstract')">
+          Abstract
+        </button>
+      
+
+      
+        <button class="pub-button" type="button" onclick="togglePubPanel('2024-map-connectivity-empirical-hardness-bibtex')">
+          BibTeX
+        </button>
+      
+
+      
+        <a href="https://ojs.aaai.org/index.php/ICAPS/article/view/31508" target="_blank" rel="noopener noreferrer" class="pub-button">Paper</a>
+      
+
+      
+        <a href="https://drive.google.com/file/d/17brUipo6jolai_eQmymqMTU4VoA4KIej/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="pub-button">Slides</a>
+      
+
+      
+
+      
+        <a href="https://github.com/USC-ACTLab/MAPF-Lambda2" target="_blank" rel="noopener noreferrer" class="pub-button">Code</a>
+      
     </div>
-   -->
 
-  <div class="publication-links">
-    
+    <div class="pub-panels">
+      
+        <div id="2024-map-connectivity-empirical-hardness-abstract" class="pub-panel abstract-content" hidden="">
+          <p>We present an empirical study of the relationship between map connectivity and the empirical hardness of the multi-agent pathfinding (MAPF) problem. By analyzing the second smallest eigenvalue (commonly known as lambda2) of the normalized Laplacian matrix of different maps, our initial study indicates that maps with smaller lambda2 tend to create more challenging instances when agents are generated uniformly randomly. Additionally, we introduce a map generator based on Quality Diversity (QD) that is capable of producing maps with specified lambda2 ranges, offering a possible way for generating challenging MAPF instances. Despite the absence of a strict monotonic correlation with lambda2 and the empirical hardness of MAPF, this study serves as a valuable initial investigation for gaining a deeper understanding of what makes a MAPF instance hard to solve.</p>
+        </div>
+      
 
-    
-
-    
-
-    
-
-    
-
-    
+      
+        <div id="2024-map-connectivity-empirical-hardness-bibtex" class="pub-panel bibtex-content" hidden="">
+          <pre><code>@inproceedings{ren2024map,
+  title={Map connectivity and empirical hardness of grid-based multi-agent pathfinding problem},
+  author={Ren, Jingyao and Ewing, Eric and Kumar, TK Satish and Koenig, Sven and Ayanian, Nora},
+  booktitle={Proceedings of the 34th International Conference on Automated Planning and Scheduling},
+  volume={34},
+  pages={484--488},
+  year={2024}
+}
+</code></pre>
+        </div>
+      
+    </div>
   </div>
 </div>
 
-<div class="publication-card">
-  <div class="publication-title">
-    Betweenness Centrality in Multi-Agent Path Finding
-  </div>
-
-  
-    <div class="publication-authors">
-      Eric Ewing, Jingyao Ren, Dhvani Kansara, Vikraman Sathiyanarayanan, and Nora Ayanian
-    </div>
-  
-
-  <div class="publication-venue">
+  <div class="pub-item pub-entry">
+  <div class="pub-thumbnail">
     
-      <em>International Conference on Autonomous Agents and Multiagent Systems (AAMAS)</em>
-    
-
-    
-      , 
-      2022
+      
+        <img src="/images/pub_thumb/betweenness.png" alt="Betweenness Centrality in Multi-Agent Path Finding thumbnail" loading="lazy" decoding="async" />
+      
     
   </div>
 
-  <!-- 
-    <div class="publication-excerpt">
-      A study of how betweenness centrality relates to empirical hardness in multi-agent path finding.
+  <div class="pub-content">
+    <h3 class="pub-title">
+      
+        Betweenness Centrality in Multi-Agent Path Finding
+      
+    </h3>
+
+    
+      <p class="pub-authors">Eric Ewing, Jingyao Ren, Dhvani Kansara, Vikraman Sathiyanarayanan, and Nora Ayanian</p>
+    
+
+    <p class="pub-meta">
+      
+        <i>International Conference on Autonomous Agents and Multiagent Systems (AAMAS)</i>
+      
+      
+        , 
+        2022
+      
+    </p>
+
+    <div class="pub-actions">
+      
+        <button class="pub-button" type="button" onclick="togglePubPanel('2022-betweenness-centrality-mapf-abstract')">
+          Abstract
+        </button>
+      
+
+      
+        <button class="pub-button" type="button" onclick="togglePubPanel('2022-betweenness-centrality-mapf-bibtex')">
+          BibTeX
+        </button>
+      
+
+      
+        <a href="https://ifaamas.org/Proceedings/aamas2022/pdfs/p400.pdf" target="_blank" rel="noopener noreferrer" class="pub-button">Paper</a>
+      
+
+      
+
+      
+
+      
     </div>
-   -->
 
-  <div class="publication-links">
-    
+    <div class="pub-panels">
+      
+        <div id="2022-betweenness-centrality-mapf-abstract" class="pub-panel abstract-content" hidden="">
+          <p>Multi-Agent Path Finding (MAPF) is a well studied problem with many existing optimal algorithms capable of solving a wide variety of instances, each with its own strengths and weaknesses. While for some instances the fastest algorithm can be easily determined, not enough is known about their performance to predict the fastest algorithm for every MAPF instance, or what makes some instances more difficult than others. There is no clear answer for which features dominate the hardness of MAPF instances. In this work, we study how betweenness centrality affects the empirical difficulty of MAPF instances. To that end, we benchmark the largest and most complete optimal MAPF algorithm portfolio to date. We analyze the algorithms’ performance independently and as part of the portfolio, and discuss how betweenness centrality can be used to improve estimations of algorithm performance on a given instance of MAPF.</p>
+        </div>
+      
 
-    
-
-    
-
-    
-
-    
-
-    
+      
+        <div id="2022-betweenness-centrality-mapf-bibtex" class="pub-panel bibtex-content" hidden="">
+          <pre><code>@inproceedings{ewing2022betweenness,
+  title={Betweenness centrality in multi-agent path finding},
+  author={Ewing, Eric and Ren, Jingyao and Kansara, Dhvani and Sathiyanarayanan, Vikraman and Ayanian, Nora},
+  booktitle={Proceedings of the 21th International Conference on Autonomous Agents and Multiagent Systems},
+  year={2022}
+  }
+</code></pre>
+        </div>
+      
+    </div>
   </div>
 </div>
 
-<div class="publication-card">
-  <div class="publication-title">
-    MAPFAST: A Deep Algorithm Selector for Multi-Agent Path Finding Using Shortest Path Embeddings
-  </div>
-
-  
-    <div class="publication-authors">
-      Jingyao Ren, Vikraman Sathiyanarayanan, Eric Ewing, Baskin Senbaslar, and Nora Ayanian
-    </div>
-  
-
-  <div class="publication-venue">
+  <div class="pub-item pub-entry">
+  <div class="pub-thumbnail">
     
-      <em>International Conference on Autonomous Agents and Multiagent Systems (AAMAS)</em>
-    
-
-    
-      , 
-      2021
+      
+        <img src="/images/pub_thumb/mapfast.png" alt="MAPFAST: A Deep Algorithm Selector for Multi-Agent Path Finding Using Shortest Path Embeddings thumbnail" loading="lazy" decoding="async" />
+      
     
   </div>
 
-  <!-- 
-    <div class="publication-excerpt">
-      A deep learning-based algorithm selector for multi-agent path finding using shortest-path embeddings.
+  <div class="pub-content">
+    <h3 class="pub-title">
+      
+        MAPFAST: A Deep Algorithm Selector for Multi-Agent Path Finding Using Shortest Path Embeddings
+      
+    </h3>
+
+    
+      <p class="pub-authors">Jingyao Ren, Vikraman Sathiyanarayanan, Eric Ewing, Baskin Senbaslar, and Nora Ayanian</p>
+    
+
+    <p class="pub-meta">
+      
+        <i>International Conference on Autonomous Agents and Multiagent Systems (AAMAS)</i>
+      
+      
+        , 
+        2021
+      
+    </p>
+
+    <div class="pub-actions">
+      
+        <button class="pub-button" type="button" onclick="togglePubPanel('2021-mapfast-abstract')">
+          Abstract
+        </button>
+      
+
+      
+        <button class="pub-button" type="button" onclick="togglePubPanel('2021-mapfast-bibtex')">
+          BibTeX
+        </button>
+      
+
+      
+        <a href="https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1055.pdf" target="_blank" rel="noopener noreferrer" class="pub-button">Paper</a>
+      
+
+      
+        <a href="https://drive.google.com/file/d/18-CYkiiBkUtAU8SSquU6IP0g0BgDqZKt/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="pub-button">Slides</a>
+      
+
+      
+
+      
+        <a href="https://github.com/USC-ACTLab/MAPFAST" target="_blank" rel="noopener noreferrer" class="pub-button">Code</a>
+      
     </div>
-   -->
 
-  <div class="publication-links">
-    
+    <div class="pub-panels">
+      
+        <div id="2021-mapfast-abstract" class="pub-panel abstract-content" hidden="">
+          <p>Solving the Multi-Agent Path Finding (MAPF) problem optimally is known to be NP-Hard for both make-span and total arrival time minimization. While many algorithms have been developed to solve MAPF problems, there is no dominating optimal MAPF algorithm that works well in all types of problems and no standard guidelines for when to use which algorithm. In this work, we develop the deep convolutional network MAPFAST (Multi-Agent Path Finding Algorithm SelecTor), which takes a MAPF problem instance and attempts to select the fastest algorithm to use from a portfolio of algorithms. We improve the performance of our model by including single-agent shortest paths in the instance embedding given to our model and by utilizing supplemental loss functions in addition to a classification loss. We evaluate our model on a large and diverse dataset of MAPF instances, showing that it outperforms all individual algorithms in its portfolio as well as the state-of-the-art optimal MAPF algorithm selector. We also provide an analysis of algorithm behavior in our dataset to gain a deeper understanding of optimal MAPF algorithms' strengths and weaknesses to help other researchers leverage different heuristics in algorithm designs.</p>
+        </div>
+      
 
-    
-
-    
-
-    
-
-    
-
-    
+      
+        <div id="2021-mapfast-bibtex" class="pub-panel bibtex-content" hidden="">
+          <pre><code>@inproceedings{ren2021mapfast,
+  title={MAPFAST: A Deep Algorithm Selector for Multi Agent Path Finding using Shortest Path Embeddings},
+  author={Ren, Jingyao and Sathiyanarayanan, Vikraman and Ewing, Eric and Senbaslar, Baskin and Ayanian, Nora},
+  booktitle={Proceedings of the 20th International Conference on Autonomous Agents and Multiagent Systems},
+  volume={34},
+  pages={1055-1063},
+  year={2021}
+}
+</code></pre>
+        </div>
+      
+    </div>
   </div>
 </div>
 
+</div>
 
 
         
@@ -516,7 +682,7 @@
 
 <!-- <div class="page__footer-copyright">
   &copy; 2026 Jingyao Ren, Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
-  Site last updated 2026-05-13
+  Site last updated 2026-05-15
 </div> -->
 
       </footer>
@@ -532,6 +698,24 @@
 
 
 
+
+<script>
+  function togglePubPanel(id) {
+    const panel = document.getElementById(id);
+    if (!panel) return;
+
+    const panelsContainer = panel.closest(".pub-panels");
+    if (!panelsContainer) return;
+
+    const shouldOpen = panel.hidden;
+
+    panelsContainer.querySelectorAll(".pub-panel").forEach(function (otherPanel) {
+      otherPanel.hidden = true;
+    });
+
+    panel.hidden = !shouldOpen;
+  }
+</script>
 
   </body>
 </html>

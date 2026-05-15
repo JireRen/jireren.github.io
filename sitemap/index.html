@@ -160,7 +160,7 @@
   <div class="author__content">
     <h3 class="author__name">Jingyao Ren</h3>
     
-    <p class="author__bio">Robotics Researcher, PhD.</p>
+    <p class="author__bio">Robotics Researcher, Founder</p>
   </div>
 
   <div class="author__urls-wrapper">
@@ -1308,6 +1308,8 @@
     
     
     
+      <p><a href="https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1055.pdf">Download Paper</a></p>
+    
 
   </article>
 </div>
@@ -1335,6 +1337,8 @@
     
     
     
+      <p><a href="https://ifaamas.org/Proceedings/aamas2022/pdfs/p400.pdf">Download Paper</a></p>
+    
 
   </article>
 </div>
@@ -1361,6 +1365,8 @@
 </p>
     
     
+    
+      <p><a href="https://ojs.aaai.org/index.php/ICAPS/article/view/31508">Download Paper</a></p>
     
 
   </article>
@@ -1446,6 +1452,8 @@
 </p>
     
     
+    
+      <p><a href="https://idm-lab.org/bib/abstracts/papers/aamas25.pdf">Download Paper</a></p>
     
 
   </article>
@@ -1670,7 +1678,7 @@
 
 <!-- <div class="page__footer-copyright">
   &copy; 2026 Jingyao Ren, Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
-  Site last updated 2026-05-13
+  Site last updated 2026-05-15
 </div> -->
 
       </footer>
@@ -1686,6 +1694,24 @@
 
 
 
+
+<script>
+  function togglePubPanel(id) {
+    const panel = document.getElementById(id);
+    if (!panel) return;
+
+    const panelsContainer = panel.closest(".pub-panels");
+    if (!panelsContainer) return;
+
+    const shouldOpen = panel.hidden;
+
+    panelsContainer.querySelectorAll(".pub-panel").forEach(function (otherPanel) {
+      otherPanel.hidden = true;
+    });
+
+    panel.hidden = !shouldOpen;
+  }
+</script>
 
   </body>
 </html>
